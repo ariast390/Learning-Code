@@ -1,0 +1,88 @@
+/* Font */
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #101c45;
+}
+
+.navbar a {
+  color: #101c45;
+  opacity: 0.8;
+}
+
+.navbar a:hover {
+  color: #000000;
+}
+
+.navbar-scrolled {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+  opacity: 0.85 !important;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+}
+
+.intro {
+  color: #101c45;
+  width: 410px;
+  height: 391px;
+}
+
+#btn-book {
+  width: 235px;
+  height: 60px;
+  background-color: #203271;
+}
+
+#hero-background {
+  width: 590px;
+  height: 847px;
+  top: 38px;
+}
+
+/* Card */
+.card {
+  position: relative;
+  width: 292px;
+  left: 40%;
+  transform: translateY(-400%);
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    display: none;
+  }
+}
+
+.name {
+  margin-left: 10px;
+}
+
+#quote-card {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* Features */
+#features {
+  background-color: #203271;
+  position: relative;
+  width: 1221px;
+  height: 191px;
+  top: -24rem;
+  left: 1rem;
+}
