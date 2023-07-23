@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- dark mode -->
+    <div class="container-darkmode">
+      <button id="dark-mode-btn">Dark Mode</button>
+    </div>
+
+    <!-- dark mode end-->
+
+    <div class="twt-container">
+      <div class="frame4 dark-mode">
+        <div class="frame3">
+          <div class="frame2">
+            <img src="image/profile-picture.png" alt="John Doe" class="profile-picture" />
+            <div class="frame1">
+              <p class="name-profile">John Doe</p>
+              <p class="username">@realjohndoe</p>
+            </div>
+          </div>
+          <img src="image/twitter-logo.png" alt="twitter logo" class="twitter-logo" />
+        </div>
+        <p class="status">
+          Why do they call it 'debugging' when it feels more like 'wildly guessing and hoping for
+          the best'?
+          <a style="color: #1da1f2">#programming #coding #debugging</a>
+        </p>
+
+        <div class="frame6">
+          <div class="frame5">
+            <div class="like">
+              <img src="image/heart.svg" alt="heart" class="heart-icon" onclick="likeButton()" />
+              <p class="like-count" id="likeCount">650</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="time">3:40 PM – Feb 24, 2022</p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
